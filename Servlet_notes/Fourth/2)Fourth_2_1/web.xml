@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>servlet_lectures</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+  </welcome-file-list>
+  
+  
+
+  
+    <!-- Servlet Configuration 
+    <servlet>
+        <servlet-name>first_1_1</servlet-name>
+        <servlet-class>servlet_lecturess.first_1_1</servlet-class>
+    </servlet>
+    -->
+    
+
+    <!-- Servlet Mappings 
+    <servlet-mapping>
+        <servlet-name>first_1_1</servlet-name>
+        <url-pattern>/welcome</url-pattern>
+    </servlet-mapping>
+    -->
+ 
+ 
+  <!-- Servlet Mappings  ( mapping multiple so do another )
+    <servlet-mapping>
+        <servlet-name>first_1_1</servlet-name>
+        <url-pattern>/first_1_1</url-pattern>
+    </servlet-mapping>
+    
+    -->
+  
+  
+  <servlet>
+   
+  <servlet-name>Fourth_1_1</servlet-name>
+  <servlet-class>servlet_lecturess.Fourth_1_1</servlet-class>
+  
+  <init-param>
+  <param-name>Bank</param-name>
+  <param-value>SBI</param-value>
+  </init-param>
+  
+  <init-param>
+  <param-name>password</param-name>
+  <param-value>2024</param-value>
+  </init-param>
+  
+  </servlet>
+  
+   <servlet-mapping>
+  <servlet-name>Fourth_1_1</servlet-name>
+  <url-pattern>/Fourth_1_1</url-pattern>
+  </servlet-mapping>
+  
+   
+  
+ <context-param>
+ <param-name>uname</param-name>
+ <param-value>Nikita</param-value>
+ </context-param>
+ 
+  <context-param>
+ <param-name>email</param-name>
+ <param-value>nikitashah@gmail.com</param-value>
+ </context-param>
+ 
+  
+   
+  
+  
+</web-app>
